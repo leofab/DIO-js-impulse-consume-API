@@ -5,7 +5,7 @@ const getCats = async () => {
         const data = await fetch(BASE_URL);
         const json = await data.json();
     
-        return json.wepurl;
+        return json.webpurl;
 
     }
 
